@@ -28,6 +28,7 @@ namespace UserMaintence
         {
             InitializeComponent();
             LoadData();
+            CreateExcel();
         }
 
         private void LoadData()
@@ -64,8 +65,28 @@ namespace UserMaintence
         }
 
         void CreateTable()
-        { 
+        {
+            string[] headers = new string[] {
+             "Kód",
+             "Eladó",
+             "Oldal",
+             "Kerület",
+             "Lift",
+             "Szobák száma",
+             "Alapterület (m2)",
+             "Ár (mFt)",
+             "Négyzetméter ár (Ft/m2)"};
 
+            for (int i = 0; i < headers.Length; i++)
+            {
+
+            }
+
+             }
         }
-    }
+
+   
+			
+
+			}
 }
