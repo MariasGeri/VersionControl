@@ -79,7 +79,7 @@ namespace UserMaintence
 
             for (int i = 0; i < headers.Length; i++)
             {
-
+                xlSheet.Cells[1, i + 1] = headers[i];
             }
 
              }
